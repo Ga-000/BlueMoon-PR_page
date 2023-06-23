@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/*nav*/
+.header .nav{overflow:hidden; height:116px;}
+.header .nav > ul{float:right; margin-top:32px; text-align:center;}
+.header .nav > ul li{float:left; padding:0 35px; border-right:1px solid #ddd;}
+.header .nav > ul li:last-child{border-right:0;}
+.header .nav > ul li a{display:block;}
+.header .nav > ul li a p{font-size:13px; font-weight:300; color:#c5c5c5;}
+.header .nav > ul li a p b{font-weight:600; color:#404040;}

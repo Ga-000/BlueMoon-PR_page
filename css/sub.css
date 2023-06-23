@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+
+/**************************************sub 공통**************************************/
+
+/*sub_visual*/
+.sub_visual{position:relative;}
+.sub_visual > div{position:absolute; right:25px; bottom:30px;}
+.sub_visual > div p{font-size:20px; font-weight:300; color:#fff; line-height:95%; text-align:right;}
+
+
+/*content*/
+.content{overflow:hidden; margin-top:42px;}
+.sub_menu{float:left; width:200px;}
+.sub_content{float:right; width:965px;}
+
+
+/*sub_menu*/
+.sub_menu > h2{font-size:20px; font-weight:500; color:#000; border-bottom:1px solid #000; padding-bottom:20px;}
+.sub_menu > ul{margin-top:20px;}
+.sub_menu > ul li{position:relative; height:42px; border-bottom:1px solid #ddd;}
+.sub_menu > ul li a{display:block; font-size:13px; font-weight:400; color:#525252; line-height:42px; padding-left:13px;}
+.sub_menu > ul li a span{position:absolute; top:10px; right:13px;}
+.sub_menu > ul li a:hover{color:#fff; background:#3f68c4;}
+.sub_menu > ul li a.visited{color:#fff; background:#3f68c4;}
+
+
+/*sub_content*/
+.sub_content{position:relative;}
+.sub_content > h2{ font-size:25px; font-weight:500; color:#113279; height:40px; padding-bottom:9px; border-bottom:1px solid #ddd; }
+
+.location{position:absolute; right:0; top:12px;}
+.location > ul{overflow:hidden;}
+.location > ul li{float:left; height:22px; line-height:22px; font-size:13px; font-weight:100; color:#79838d;}
+.location > ul li:first-child{padding-right:10px;}
+.location > ul li b{font-weight:500; color:#000;}
+
+
+/*sub_hot*/
+
+
+/**************************************history-greeting**************************************/
+
+/*visual*/
+.his_gre_bg{height:217px; background:url(../image/history/visual_bg.jpg) no-repeat;}
+
+
+
+
+/*************inner_content*************/
+
+/*history_grt*/
+.history_grt{margin-top:50px; padding:0 15px;}
+.history_grt > ul{overflow:hidden;}
+.history_grt > ul li{float:left; text-align:center;}
+.history_grt > ul li p{font-size:60px; font-weight:800; color:#2d82a9; font-family: 'Nanum Myeongjo', serif;}
+
+.history_grt > h3{font-size:28px; font-weight:500; color:#000; font-family: 'Nanum Myeongjo', serif; margin-top:43px; letter-spacing:-1px; margin-bottom:15px;}
+.history_grt > h4{font-size:17px; font-weight:400; color:#666666; margin-top:15px; margin-bottom:40px;}
+
+.gre_photo{position:relative; height:364px; background:url(../image/history/greeting_img.jpg) no-repeat; margin-bottom:250px;}
+.gre_photo > div{position:absolute; left:0; top:50px;}
+.gre_photo > div p{font-size:18px; font-weight:200; color:#fff; font-style:italic;  text-align:center;}
+
+
+
+/*history-portfolio*/
+.history_ptf{position:relative; overflow:hidden; margin-top:50px; margin-bottom:105px;}
+
+.history_ptf > img:nth-child(1){position:absolute; top:0; left:calc(50% - 115px);}
+.history_ptf > img:nth-child(2){position:absolute; top:68px; left:calc(50% - 5px);}
+.history_ptf > img:nth-child(3){position:absolute; top:225px; left:calc(50% - 5px);}
+
+
+.ptf_left{float:left; width:460px; padding-top:240px; padding-right:25px; border-right:1.5px solid #ddd; text-align:right;}
+.ptf_right{float:right; width:460px; padding-top:83px;}
+
+.ptf_left > h2{font-size:20px; font-weight:500; color:#000;}
+.ptf_left > ul{overflow:hidden;}
+.ptf_left > ul li{font-size:13px; font-weight:400; margin-top:20px;}
+.ptf_left > ul li:first-child{float:left; width:360px; color:#666666; text-align:right; letter-spacing:-1px;}
+.ptf_left > ul li:last-child{float:right; width:100px; color:#000;}
+.ptf_left > img{margin-top:25px;}
+
+.ptf_right > h2{font-size:20px; font-weight:500; color:#000;}
+.ptf_right > ul{overflow:hidden;}
+.ptf_right > ul li{float:left; font-size:13px; font-weight:400; margin-top:20px;}
+.ptf_right > ul li:first-child{width:105px; color:#000;}
+.ptf_right > ul li:last-child{width:355px; color:#666666; letter-spacing:-1px;}
+.ptf_right > img{margin-top:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
